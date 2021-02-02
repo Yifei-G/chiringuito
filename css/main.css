@@ -81,10 +81,7 @@ nav ul li a{
 
 
 
-nav ul li:hover{
-    animation:wobble;
-    animation-duration: 2s;
-}
+
 
 audio{
     display: none;
@@ -137,10 +134,7 @@ footer p{
 .social-network-container div{
     display: inline-block;
 }
-.social-network-container div:hover{
-    animation: shakeX;
-    animation-duration: 1s;
-}
+
 
 .drinks-text-container{
     display: inline-flex;
@@ -174,6 +168,10 @@ footer p{
 .intro-container p {
     padding:1rem;
     margin: auto;
+}
+
+.carousel-caption{
+    position: static;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1020px){
