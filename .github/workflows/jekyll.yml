@@ -19,3 +19,6 @@ jobs:
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
         npm install
+    - name: Setup Node.js environment
+      uses: actions/setup-node@v2.1.4
+
